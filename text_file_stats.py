@@ -1,4 +1,4 @@
-import sys, os.path, re, collections
+import sys, os.path, re, collections, json
 from collections import  Counter
 
 def calculate_lines(file_name):
@@ -55,12 +55,14 @@ def find_word_count(file_name):
 if len(sys.argv) > 1:
     file_name = sys.argv[1]
     if os.path.isfile(file_name):
-        print "lines: %s"  % calculate_lines(file_name)
-        print "words: %s"  % calculate_words(file_name)
-        print "characters: %s"  % calculate_characters(file_name)
-        print "most_common_word: %s" % find_most_common_word(file_name)
-        print "most_common_letter: %s" % find_most_common_letter(file_name)
-        print "word_count: %s" % find_word_count(file_name)
+        data = {}
+        data['lines'] = calculate_lines(file_name)
+        data['words'] = calculate_words(file_name)
+        data['characters'] = calculate_characters(file_name)
+        data['most_common_word'] = find_most_common_word(file_name)
+        data['most_common_letter'] = find_most_common_letter(file_name)
+        data['word_count'] = find_word_count(file_name)
+        print json.dumps(data, indent=4, sort_keys=True)
     else:
         print "input doesn't exist"
 else:
