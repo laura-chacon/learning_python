@@ -1,0 +1,5 @@
+Normalmente las empresas demandan un full-stack developer cuando buscan una persona técnica, normalmente programador informático, que conozca bien y le sean familiares todas las facetas del front-end y del back-end y los diferentes sistemas operativos y componentes que quedan en medio de esas fronteras.
+
+Actualmente, parece ser que la demanda de programadores de estas características es una tendencia en aumento a la hora de realizar tareas de recruiting, sobre todo en empresas tecnológicas concebidas como startups, ya que al comenzar pocas personas y tener normalmente pocos recursos para contratar desarrollo, sus componentes deben ser capaces de asumir tareas de diferente índole y estar preparados para, al menos, no manejar pero sí conocer las diferentes partes técnicas del proyecto. 
+De hecho, se dice que empresas como Facebook últimamente solo contratan programadores con este tipo de perfil.
+
