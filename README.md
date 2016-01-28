@@ -17,3 +17,11 @@ $ python text_file_stats/text_file_stats.py text_file_stats/input.txt
    "words": 135
 }
 ```
+
+```
+$ python latitude_longitud_city/latitute_longitud_city.py Barcelona Spain                                                        
+{                                                                                                                   
+    "latitude": 41.3825596,                                                                                                   
+    "longitud": 2.1771353                                                                                              
+}   
+```
