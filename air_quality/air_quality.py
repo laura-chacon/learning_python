@@ -7,7 +7,7 @@ if len(sys.argv) > 2:
     data = {}
     geolocator = Nominatim()
     location = geolocator.geocode(city + " " + country)
-    if country is not 'USA':
+    if country != "USA":
         data['error'] = "invalid value"
     else:
         payload = {'lat': location[1][0], 'lon': location[1][1], 'key': '2eef42863d814355b3e7f5f0cbff2efb'}
